@@ -76,7 +76,7 @@ public class Main {
             System.out.println("The total cost so far is " + (decoratorHours * 5.50 + "GBP"));
         }
 // ADD OFFER OF ADDITIONAL ROOMS AT AS COST- WHILE LOOP
-        // DO WHILE LOOP-
+        // FINISH WHILE LOOP
 
     }
 }
