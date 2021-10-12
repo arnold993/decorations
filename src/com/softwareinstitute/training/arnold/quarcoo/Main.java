@@ -44,37 +44,25 @@ public class Main {
         switch (day)
         {
             case 1:
-                System.out.println("Monday");
+                System.out.println("Monday, is available");
                 break;
             case 2:
-                System.out.println("Tuesday");
+                System.out.println("Tuesday, is not available");
                 break;
             case 3:
-                System.out.println("Wednesday");
+                System.out.println("Wednesday, is available");
                 break;
             case 4:
-                System.out.println("Thursday");
+                System.out.println("Thursday, is available");
                 break;
             case 5:
-                System.out.println("Friday");
-                break;
-            case 6:
-                System.out.println("Saturday");
-                break;
-            case 7:
-                System.out.println("Sunday");
+                System.out.println("Friday, is available");
                 break;
         }
 
         Scanner decorator = new Scanner(System.in);
         System.out.println("How many hours will decorator need?");
-        float decoratorHours = decorator.nextInt();
-// CALCULATE WEEKDAY AND WEEKENDS HOURLY RATES
-        if (workingDay > 4) {
-            System.out.println("The total cost so far is " + (decoratorHours * 7.50 + "GBP"));
-        } else {
-            System.out.println("The total cost so far is " + (decoratorHours * 5.50 + "GBP"));
-        }
+        int decoratorHours = decorator.nextInt();
 // ADD OFFER OF ADDITIONAL ROOMS AT AS COST- WHILE LOOP
         // FINISH WHILE LOOP
 
